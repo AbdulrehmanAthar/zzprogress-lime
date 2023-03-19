@@ -1,0 +1,8 @@
+Valid invoice Details: valid invoice details such as invoice number, date, due date, line items, quantity, and price.
+Valid Client Details: valid client details such as name, address, email, and phone number.
+Valid Payment Methods: valid payment methods accepted by Odo.com, such as credit card, PayPal, bank transfer, and so on.
+Invalid ECP'S
+Providing incorrect client information while creating an invoice.
+Entering an invalid amount or format while creating an invoice.
+Trying to send an invoice without internet connectivity.
+Entering a past date as the invoice due date.

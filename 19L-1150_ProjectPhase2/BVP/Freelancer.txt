@@ -1,0 +1,5 @@
+Boundary Values:
+1)Minimum and maximum invoice amount values
+2)Minimum and maximum number of items per invoice
+3)Minimum and maximum length of item description field
+4)Minimum and maximum number of invoices that can be sent per day

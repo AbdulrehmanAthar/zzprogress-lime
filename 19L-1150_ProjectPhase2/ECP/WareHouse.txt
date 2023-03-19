@@ -1,0 +1,5 @@
+Valid product codes: Products codes that are currently in the warehouse inventory and can be tracked.
+Valid warehouse locations: Warehouse locations that are currently in use and can be tracked.
+INvalid:
+The inventory tracking and management features in Odo.com are experiencing technical difficulties or downtime.
+The warehouse manager encounters bugs or errors in the system that prevent them from tracking inventory movement accurately.

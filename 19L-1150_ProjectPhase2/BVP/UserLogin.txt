@@ -1,0 +1,4 @@
+1)Enter a username with 1 character
+2)Enter a username with 50 character
+3)Enter a password with 8 characters
+4)Enter a password with 20 characters
