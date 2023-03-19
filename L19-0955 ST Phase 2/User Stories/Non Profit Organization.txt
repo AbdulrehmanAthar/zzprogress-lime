@@ -1,0 +1,1 @@
+2.As a nonprofit organization focused on fundraising, I want to be able to manage my donor data, track donations and generate reports, so that I can improve my fundraising efforts and maximize donations.

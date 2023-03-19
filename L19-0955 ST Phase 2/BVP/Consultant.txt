@@ -1,0 +1,22 @@
+Boundary Values:
+Valid Inputs:
+Project name (1 character, 50 characters)
+Client name (1 character, 50 characters)
+Start date (1 day before current date, current date)
+End date (current date, 1 year after current date)
+Budget (1, 1000000)
+Invalid Inputs:
+Project name (empty string, 51 characters)
+Client name (empty string, 51 characters)
+Start date (in the past by more than 1 day)
+End date (before start date, more than 1 year after current date)
+Budget (0, negative integer, 1000001)
+
+
+Boundary Values:
+Valid inputs:
+Project name: "N", "New Project", "A project with a very long name that is still valid and within the limit of 50 characters", "A project with a name that is exactly 50 characters long and is therefore valid"
+Client name: "J", "John Doe", "A client with a very long name that is still valid and within the limit of 50 characters", "A client with a name that is exactly 50 characters long and is therefore valid"
+Start date: "2023-03-18", "2023-03-19"
+End date: "2023-03-19", "2024-03-18"
+Budget: 1, 1000000

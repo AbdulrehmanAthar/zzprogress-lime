@@ -1,0 +1,1 @@
+1.As a consultant in a technical field, I want to be able to manage my clients' projects, track progress and generate reports, so that I can provide better consulting services and improve client satisfaction.

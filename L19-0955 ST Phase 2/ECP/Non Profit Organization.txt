@@ -1,0 +1,15 @@
+2.As a nonprofit organization focused on fundraising, I want to be able to manage my donor data, track donations and generate reports, so that I can improve my fundraising efforts and maximize donations.
+
+Equivalence Class:
+Donor Data:
+Valid input: alphanumeric characters, special characters, and spaces.
+Invalid input: non-alphanumeric characters, such as emojis or binary.
+Donation Amount:
+Valid input: positive decimal values, up to two decimal places.
+Invalid input: negative decimal values, or decimal values with more than two decimal places.
+Donation Date:
+Valid input: date values in the format of DD/MM/YYYY.
+Invalid input: date values that are not in the correct format or that are not valid dates.
+Donor Category:
+Valid input: "Individual" or "Organization".
+Invalid input: any other input than "Individual" or "Organization".
