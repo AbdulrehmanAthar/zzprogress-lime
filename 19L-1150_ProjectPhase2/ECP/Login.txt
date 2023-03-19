@@ -1,0 +1,9 @@
+Valid ECP
+Username: alphanumeric characters, between 5-20 characters in length.
+Password: alphanumeric characters, at least 8 characters long with at least one uppercase letter and one special character.
+Email Address: a valid email address format, unique and not already registered on the site.
+Invalid ECP
+Invalid email format, such as missing "@" or ".com" at the end
+Username already exists in the system
+Password and Confirm Password fields do not match
+Invalid date of birth entered

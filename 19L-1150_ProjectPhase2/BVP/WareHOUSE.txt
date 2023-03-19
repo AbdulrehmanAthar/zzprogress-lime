@@ -1,0 +1,5 @@
+Boundary Values: 
+1)The maximum number of items that can be tracked in a single inventory movement should be tested. For example, if the limit is set at 100 items per movement, test with 99, 100, and 101 items to ensure that the system handles the limit correctly.
+2)The maximum length of inventory movement description should be tested. For example, if the limit is set at 50 characters, test with a 49-character description, a 50-character description, and a 51-character description to ensure that the system handles the limit correctly.
+3)The maximum number of inventory movements that can be stored should be tested. For example, if the limit is set at 1000 movements, test with 999, 1000, and 1001 movements to ensure that the system handles the limit correctly.
+4)The maximum length of item name and item code should be tested. For example, if the limit is set at 20 characters, test with a 19-character name/code, a 20-character name/code, and a 21-character name/code to ensure that the system handles the limit correctly.
