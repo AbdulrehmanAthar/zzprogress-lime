@@ -1,0 +1,3 @@
+As a small business owner with a subscription-based model,
+I want to be able to manage my subscriptions, track revenue and churn,
+and generate reports, so that I can optimize my subscription business and improve customer retention.

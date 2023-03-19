@@ -1,0 +1,8 @@
+Valid listing
+Invalid Listing
+Valid Leads
+Invalid Leads
+Valid Commissions: earned commissions, unpaid commissions, paid commissions
+Unvalid Comissions
+Valid Reports: sales reports, lead reports, commission reports, client relationship reports
+Invalid Reports

@@ -1,0 +1,9 @@
+Equivalence classes:
+
+Valid Client portfolios: Active portfolios, closed portfolios, portfolios with different types of assets (stocks, bonds, mutual funds, ETFs, etc.), 
+portfolios with different risk levels (conservative, moderate, aggressive)
+InValid Client Portfolios.
+Valid Portfolio performance: Positive performance, negative performance, zero performance.
+Invalid Portfolio
+Valid Reports: Quarterly reports, annual reports, reports for individual clients,reports for groups of clients.
+InValid Reports
