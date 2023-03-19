@@ -1,0 +1,32 @@
+1.As a consultant in a technical field, I want to be able to manage my clients' projects, track progress and generate reports, so that I can provide better consulting services and improve client satisfaction.
+
+Equivalence Class:
+Valid Inputs:
+Project name (up to 50 characters)
+Client name (up to 50 characters)
+Start date (date format)
+End date (date format)
+Budget (positive integer)
+Invalid Inputs:
+Project name (empty string, longer than 50 characters)
+Client name (empty string, longer than 50 characters)
+Start date (not in date format, in the past)
+End date (not in date format, before start date)
+Budget (negative integer, zero)
+
+
+
+Test Cases:
+Equivalence Class:
+Valid inputs:
+Project name: "New Project", "A project with a very long name that is still valid and within the limit of 50 characters"
+Client name: "John Doe", "Jane Smith", "A client with a very long name that is still valid and within the limit of 50 characters"
+Start date: "2023-04-01", "2023-03-19"
+End date: "2024-03-18", "2023-04-02"
+Budget: 1000, 999999
+Invalid inputs:
+Project name: "", "A project with a name that is longer than 50 characters and is therefore invalid"
+Client name: "", "A client with a name that is longer than 50 characters and is therefore invalid"
+Start date: "2021-01-01", "2023-03-18"
+End date: "2023-03-18", "2024-03-19"
+Budget: 0, -100, 1000001

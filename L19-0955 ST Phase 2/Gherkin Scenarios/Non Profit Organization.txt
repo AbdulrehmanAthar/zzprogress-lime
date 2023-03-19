@@ -1,0 +1,79 @@
+Scenario 1: Add individual donor
+Given I am on the donor management page
+When I click the "Add Donor" button
+And I enter valid individual donor data
+And I select "Individual" as the donor category
+And I click the "Save" button
+Then the individual donor data is saved successfully
+
+Scenario 2: Add organization donor
+Given I am on the donor management page
+When I click the "Add Donor" button
+And I enter valid organization donor data
+And I select "Organization" as the donor category
+And I click the "Save" button
+Then the organization donor data is saved successfully
+
+Scenario 3: Add donation for individual donor
+Given I am on the donor management page
+When I select an existing individual donor
+And I click the "Add Donation" button
+And I enter valid donation data
+And I click the "Save" button
+Then the donation is added to the individual donor successfully
+
+Scenario 4: Add donation for organization donor
+Given I am on the donor management page
+When I select an existing organization donor
+And I click the "Add Donation" button
+And I enter valid donation data
+And I click the "Save" button
+Then the donation is added to the organization donor successfully
+
+Scenario 5: Generate donation summary report
+Given I am on the donor management page
+When I click the "Generate Report" button
+And I select "Donation Summary Report" as the report type
+And I select a valid date range
+And I click the "Generate" button
+Then the donation summary report is generated successfully
+
+Scenario 6: Generate donor list report
+Given I am on the donor management page
+When I click the "Generate Report" button
+And I select "Donor List Report" as the report type
+And I select a valid date range
+And I click the "Generate" button
+Then the donor list report is generated successfully
+
+Scenario 7: Generate donation by donor report
+Given I am on the donor management page
+When I click the "Generate Report" button
+And I select "Donation by Donor Report" as the report type
+And I select a valid date range
+And I click the "Generate" button
+
+Then the donation by donor report is generated successfully
+Scenario 8: Attempt to add donor with invalid data
+Given I am on the donor management page
+When I click the "Add Donor" button
+And I enter invalid donor data
+And I select "Individual" as the donor category
+And I click the "Save" button
+Then I see an error message indicating that the donor data is invalid
+
+Scenario 9: Attempt to add donation with invalid data
+Given I am on the donor management page
+When I select an existing individual donor
+And I click the "Add Donation" button
+And I enter invalid donation data
+And I click the "Save" button
+Then I see an error message indicating that the donation data is invalid
+
+Scenario 10: Attempt to generate report with invalid data
+Given I am on the donor management page
+When I click the "Generate Report" button
+And I select an invalid report type
+And I select an invalid date range
+And I click the "Generate" button
+Then I see an error message indicating that the report data is invalid

@@ -1,0 +1,58 @@
+Here are 10 Gherkin scenarios for the given requirement:
+1.Scenario: Create a new project
+Given I am logged in as a consultant
+When I create a new project "Build a new e-commerce platform"
+Then I should see a success message "Project created successfully"
+
+2.Scenario: Assign project to a client
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I assign the project to "ABC Inc."
+Then I should see a success message "Project assigned to ABC Inc."
+
+3.Scenario: Update project details
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I update the project name to "Build a new e-commerce website"
+Then I should see a success message "Project details updated successfully"
+
+4.Scenario: Delete a project
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I delete the project
+Then I should see a success message "Project deleted successfully"
+
+5.Scenario: View all projects
+Given I am logged in as a consultant
+And multiple projects exist
+When I view all projects
+Then I should see a list of all the projects
+
+6.Scenario: View project details
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I view the project details
+Then I should see the project details
+
+7.Scenario: Update project progress
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I update the progress to 50%
+Then I should see a success message "Project progress updated successfully"
+
+8.Scenario: View client progress
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I view client progress for "ABC Inc."
+
+9.Then I should see the progress made by ABC Inc. on the project
+Scenario: View overall progress
+Given I am logged in as a consultant
+And multiple projects exist
+When I view the overall progress
+Then I should see the progress made on all the projects
+10.Scenario: Generate project report
+Given I am logged in as a consultant
+And a project "Build a new e-commerce platform" exists
+When I generate a report for the project
+

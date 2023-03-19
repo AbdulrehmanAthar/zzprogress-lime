@@ -1,0 +1,15 @@
+Boundary Values:
+Donor Data:
+Minimum valid input: 1 character.
+Maximum valid input: 255 characters.
+Invalid input: 0 characters, more than 255 characters.
+Donation Amount:
+Minimum valid input: 0.01.
+Maximum valid input: 99999.99.
+Invalid input: 0 or negative amounts, amounts exceeding the maximum value.
+Donation Date:
+Minimum valid input: 01/01/1900.
+Maximum valid input: 31/12/2099.
+Invalid input: dates outside of the valid range, or dates that are not in the correct format.
+Donor Category:
+Invalid input: anything other than "Individual" or "Organization".

@@ -1,0 +1,5 @@
+Equivalence Class Partitioning:
+Valid input: Any alphanumeric string, with no special characters or whitespace, representing a task name or a team member name
+Invalid input: Special characters or whitespace in task names or team member names
+Valid output: Successful creation, update, or deletion of task, successful assignment of task to team member, successful completion of task, successful progress tracking
+Invalid output: Error messages indicating invalid input or failure to complete the requested action
