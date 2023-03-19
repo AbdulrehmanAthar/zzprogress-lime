@@ -1,0 +1,12 @@
+Equivalence Classes:
+
+Valid Subscription types: monthly, quarterly, annually.
+Invalid Subscriptions
+Subscription status: active, inactive, pending, canceled.
+Invalid Subscription status
+Valid Revenue generated: less than $1000, $1000 - $5000, more than $5000.
+Invalid Revenue
+Valid Churn rate: low, medium, high.
+Invalid Churn rate
+Valid Customer retention rate: low, medium, high.
+Invalid Customer retention

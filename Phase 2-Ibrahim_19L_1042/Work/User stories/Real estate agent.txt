@@ -1,0 +1,3 @@
+As a real estate agent, I want to be able to manage my listings,
+track leads and commissions, and generate reports, 
+so that I can increase my sales and improve my client relationships.

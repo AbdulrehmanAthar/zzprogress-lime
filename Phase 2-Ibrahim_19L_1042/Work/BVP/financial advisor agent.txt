@@ -1,0 +1,13 @@
+Boundary values:
+
+1) Portfolio balances:Minimum balance of $0, maximum balance of $1 billion.
+Valid: $0, $1, $999,999, $1,000,000 (lower and upper boundaries for balance)
+Invalid: -$1 (negative balance), $1,000,000,001 (balance greater than upper boundary)
+ 
+2) Performance: Minimum return of -100%, maximum return of 100%.
+Valid: -99%, -1%, 0%, 1%, 99% (lower and upper boundaries for performance)
+Invalid: -101% (performance less than lower boundary), 101% (performance greater than upper boundary)
+
+3) Report generation: Minimum of 1 report, maximum of 100 reports.
+Valid: 1, 10, 50, 99, 100 (lower and upper boundaries for number of reports)
+Invalid: 0 (cannot generate zero reports), 101 (cannot generate more than 100 reports)

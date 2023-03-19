@@ -1,0 +1,6 @@
+Boundary values:
+
+Listings: minimum and maximum number of listings allowed
+Leads: minimum and maximum number of leads allowed
+Commissions: minimum and maximum commission percentage allowed
+Reports: minimum and maximum date range allowed for generating reports

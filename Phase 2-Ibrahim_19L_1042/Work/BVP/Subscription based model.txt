@@ -1,0 +1,5 @@
+Boundary Values:
+
+Minimum and maximum number of subscriptions that can be managed.
+Minimum and maximum revenue that can be generated.
+Minimum and maximum churn and retention rates.
