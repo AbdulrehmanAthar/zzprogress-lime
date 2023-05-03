@@ -1,0 +1,9 @@
+Test for deleting a record:
+from odoo.tests.common import TransactionCase
+
+class TestDeleteRecord(TransactionCase):
+    def test_delete_record(self):
+        partner = self.env['res.partner'].create({'name': 'Test Partner'})
+        partner.unlink()
+        self.assertFalse(partner.exists())
+This test creates a new partner record, deletes it using the unlink method, and asserts that the record no longer exists in the database.

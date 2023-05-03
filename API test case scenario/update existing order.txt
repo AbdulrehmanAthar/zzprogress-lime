@@ -1,0 +1,7 @@
+Scenario 2: Update an existing order through the Odoo API
+
+Send a PUT request to the /api/v1/orders/:id endpoint with updated order information, 
+such as the order status, shipping address, or product quantities.
+Verify that the response status code is 200 OK.
+Retrieve the updated order using the GET request to
+ the /api/v1/orders/:id endpoint and verify that the returned order information matches the updated input.

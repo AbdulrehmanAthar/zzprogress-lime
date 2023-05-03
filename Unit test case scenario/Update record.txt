@@ -1,0 +1,10 @@
+Test for updating a record:
+
+from odoo.tests.common import TransactionCase
+
+class TestUpdateRecord(TransactionCase):
+    def test_update_record(self):
+        partner = self.env['res.partner'].create({'name': 'Test Partner'})
+        partner.name = 'Updated Partner'
+        self.assertEqual(partner.name, 'Updated Partner')
+This test creates a new partner record, updates its name, and asserts that the name was updated correctly.

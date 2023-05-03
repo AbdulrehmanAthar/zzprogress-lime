@@ -1,0 +1,8 @@
+Scenario 1: Create a new customer through the Odoo API
+
+Send a POST request to the /api/v1/customers endpoint 
+with the necessary customer information, such as name, email, phone number, and address.
+Verify that the response status code is 201 Created.
+Retrieve the newly created customer using the GET 
+request to the /api/v1/customers/:id endpoint and verify that 
+the returned customer information matches the original input.
