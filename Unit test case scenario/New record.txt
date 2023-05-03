@@ -1,0 +1,8 @@
+Test for creating a new record:
+from odoo.tests.common import TransactionCase
+
+class TestCreateRecord(TransactionCase):
+    def test_create_record(self):
+        partner = self.env['res.partner'].create({'name': 'Test Partner'})
+        self.assertEqual(partner.name, 'Test Partner')
+This test creates a new partner record and asserts that the name of the partner matches the name that was passed in the create method.
