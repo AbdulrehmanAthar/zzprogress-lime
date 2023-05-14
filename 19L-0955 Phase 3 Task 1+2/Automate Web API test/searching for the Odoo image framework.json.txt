@@ -1,0 +1,19 @@
+{
+  "name": "my-test-suite",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "requests": "^2.26.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "jest-environment-webdriver": "^7.0.0",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "jest": {
+    "testEnvironment": "jest-environment-webdriver"
+  }
+}
